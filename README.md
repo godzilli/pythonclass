@@ -9,3 +9,9 @@ git push 'where u want to push', in this case, origin, if u are in a branch diff
 
 ```sh
 ```
+# ** potencia
+# ctrl ' abre e fecha terminal
+# cd fundpy entra na pasta, python pyproject.py roda o código
+
+# ctrl ' abre e fecha terminal
+# cd fundpy entra na pasta, python pyproject.py roda o código
