@@ -15,3 +15,5 @@ git push 'where u want to push', in this case, origin, if u are in a branch diff
 
 # ctrl ' abre e fecha terminal
 # cd fundpy entra na pasta, python pyproject.py roda o código
+
+# recebe argumento pelo terminal em project_v7.py
