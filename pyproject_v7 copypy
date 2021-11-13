@@ -1,6 +1,6 @@
 from math import pi
 import sys
-import errno
+# import errno
 
 
 def help(script):
@@ -15,7 +15,7 @@ def circulo(raio):
 if __name__ == '__main__':
     if len(sys.argv) < 2:
         help(sys.argv[0][2:])
-        #sys.exit(errno.EPERM)
+        # sys.exit(errno.EPERM)
     else:
         raio = sys.argv[1]
         area = circulo(raio)
