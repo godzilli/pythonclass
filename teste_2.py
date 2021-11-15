@@ -1,14 +1,15 @@
-MLB_team = dict([
-    ('Colorado', dict([
-        ('Boston', 'Red Sox'),
-        ('Minnesota', 'Twins'),
-        ('Milwaukee', 'Brewers'),
-        ('Seattle', 'Mariners')
-    ]))
-])
+produto = {'nome': 'Caneta',
+           'preco': 14.99,
+           'importada': True,
+           'estoque': 223}
 
-type(MLB_team)
-print(type(MLB_team))
+for chave in produto:
+    print(chave)
 
-if type(MLB_team) == dict:
-    print("OK")
+for valor in produto.values():
+    print(valor)
+
+for chave, valor in produto.items():
+    print(chave, '=', valor)
+
+print(chave, valor)
